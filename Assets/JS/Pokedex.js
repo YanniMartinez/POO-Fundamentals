@@ -1,4 +1,4 @@
-/* Concepto de abstracción */
+// * Concepto de abstracción 
 
 class Pokedex{
     getinfo(name){ //Declaramos un método
@@ -7,8 +7,8 @@ class Pokedex{
             .then(data => {
                 /* const lista = ["Dragon Ball", "Code Gears", "Sailor Moon"];
                 const[dragon,code, sailor] = lista; //con esto estamos sacando elementos de un arreglo y los estamos desestructurando de mi arreglo
-                //const[ , , sailor] = lista; con esto podriamos obtener simplemente el tercer elemento
-                //Seria equivalente a ... const dragon = lista[0]; const code = lista[1] ; const sailor = lista[2];
+                const[ , , sailor] = lista; con esto podriamos obtener simplemente el tercer elemento
+                Seria equivalente a ... const dragon = lista[0]; const code = lista[1] ; const sailor = lista[2];
                 console.log(dragon,code); */
 
                 //DESESTRUCTURACIÓN, permite sacar elementos dentro de un arreglo. Desempaqueta elementos de un arreglo. En arreglos grandes se pierde la desestructuración.
